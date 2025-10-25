@@ -13,4 +13,6 @@ public interface DraftService {
     void rejectDraft(Long draftId);
     List<EmailDraft> getUserDrafts(Long userId);
     EmailDraft updateDraftContent(Long draftId, String content);
+
+    //apikey
 }
